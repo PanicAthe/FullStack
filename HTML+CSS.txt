@@ -27,3 +27,19 @@ CSS 기본
     html {
         font-size: 10px;
     }
+
+CSS 선택자
+    .은 class에 접근 할 때, #은 id에, []은 속성에 접근할 때 추가
+    우선 순위는 tag < attribute = class < id
+    *가상선택자
+    p:hover { ~ } 호버(마우스가 올라감) 상태가 된다면 수행
+    css 선택자 게임 - https://flukeout.github.io/
+
+CSS 사이즈 단위, 색상
+    rem은 html 태그 안에 있는 폰트사이즈를 추종
+    em은 부모의 폰트사이즈를 추종 -> 충첩되면 계산 난이도가 높아 사용x
+    px 너비 높이
+    색상은 16진수 or rgb로 표한 가능
+
+CSS 박스모델
+    border 테두리, 테두리와 컨텐츠 사이를 padding, 테두리 밖을 margin
